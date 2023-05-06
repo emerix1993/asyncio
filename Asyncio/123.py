@@ -19,6 +19,7 @@ class ExchangeRates:
             return
 
         self.data = self.fetch_from_api()
+
         ExchangeRates._initialized = True
 
     @staticmethod
